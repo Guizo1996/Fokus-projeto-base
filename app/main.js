@@ -22,7 +22,7 @@ musica.loop = true ;
 
 
 //tempos iniciais
-const tempoInicialfoco = 1
+const tempoInicialfoco = 1500
 const tempoInicialDescansoCurto = 300
 const tempoInicialDescansoLongo = 900
 
@@ -74,6 +74,7 @@ botoesAll.forEach(function(modo){
     modo.classList.remove("active");
 })
 html.setAttribute("data-contexto", modo)
+//retirada da imagem e do texto header
 /* imagem.setAttribute('src',`/imagens/${modo}.png `);
 switch(modo){
     case"foco":
