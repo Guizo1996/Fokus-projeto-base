@@ -74,7 +74,7 @@ botoesAll.forEach(function(modo){
     modo.classList.remove("active");
 })
 html.setAttribute("data-contexto", modo)
-imagem.setAttribute('src',`/imagens/${modo}.png `);
+/* imagem.setAttribute('src',`/imagens/${modo}.png `);
 switch(modo){
     case"foco":
     titulo.innerHTML = `
@@ -99,7 +99,7 @@ switch(modo){
     default: 
     alert("algo deu errado ");
     break;
-}
+} */
 
 }
 

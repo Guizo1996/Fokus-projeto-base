@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .app__logo-figure {
     display: flex;
     justify-content: center;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .app__section-banner-container {
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 0.2rem solid var(--azul-royal);
     background: var(--fundo-card-timer);
     padding: 2.4rem;
-    margin: 8rem 0;
+    margin: 3rem 0;
     width: 59rem;
     max-width: 90%;
 }
@@ -315,6 +315,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 2rem 0;
 }
 
 .app__section-task-content {
